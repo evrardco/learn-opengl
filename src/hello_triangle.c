@@ -41,8 +41,8 @@ int main(int argc, char * argv[]) {
         return -1;
     }    
     //load shader source files
-    const char * vertexShaderSource = load_shader("src/shaders/vertex/identity.glsl");
-    const char * fragmentShaderSource = load_shader("src/shaders/fragment/orange.glsl");
+    const char * vertexShaderSource = load_shader("../src/shaders/vertex/identity.glsl");
+    const char * fragmentShaderSource = load_shader("../src/shaders/fragment/orange.glsl");
 
     unsigned int vertexShader;
     vertexShader = glCreateShader(GL_VERTEX_SHADER);
